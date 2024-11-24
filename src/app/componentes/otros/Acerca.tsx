@@ -17,8 +17,8 @@ export const Acerca = () => {
                     <img src={foto02} className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h5 className="card-title">Registrar libros</h5>
-                        <p className="card-text">Aqui puedes crear tus libros.</p>
-                        <a href="/libadm" className="btn btn-primary">Ir a crear libros</a>
+                        <p className="card-text">Aqui puedes registrar tus libros.</p>
+                        <a href="/libcre" className="btn btn-primary">Ir a administrar libros</a>
                     </div>
                 </div>
                 <div className="card" style={{width: "18rem"}}>
