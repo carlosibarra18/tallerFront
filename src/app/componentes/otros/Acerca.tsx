@@ -19,7 +19,7 @@ export const Acerca = () => {
                     <div className="card-body">
                         <h5 className="card-title">Registrar libros</h5>
                         <p className="card-text">Aqui puedes registrar tus libros.</p>
-                        <NavLink to="/libcre" className="btn btn-primary">Ir a administrar libros</NavLink>
+                        <NavLink to="/libcre" className="btn btn-primary">Ir a registrar libros</NavLink>
                     </div>
                 </div>
                 <div className="card" style={{width: "18rem"}}>
