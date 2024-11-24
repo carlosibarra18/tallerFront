@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const LibroAdmin = () => {
   return (
     <>
@@ -44,12 +46,12 @@ export const LibroAdmin = () => {
                 <td className="text-center">788888888</td>
                 <td>Rama</td>
                 <td>
-                  <a href="/libact/2">
+                  <NavLink to="/libact/2">
                     <i
                       className="fa-solid fa-pen-to-square"
                       style={{ color: "#0000ff" }}
                     ></i>
-                  </a>
+                  </NavLink>
                   &nbsp;
                   <i
                     className="fa-solid fa-trash"
@@ -64,12 +66,12 @@ export const LibroAdmin = () => {
                 <td className="text-center">989623233</td>
                 <td>Planeta</td>
                 <td>
-                  <a href="/libact/3">
+                  <NavLink to="/libact/3">
                     <i
                       className="fa-solid fa-pen-to-square"
                       style={{ color: "#0000ff" }}
                     ></i>
-                  </a>
+                  </NavLink>
                   &nbsp;
                   <i
                     className="fa-solid fa-trash"
